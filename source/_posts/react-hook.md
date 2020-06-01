@@ -54,10 +54,6 @@ const refContainer = useRef(initialValue);
 对于 useEffect 来说，执行的时机是完成所有的 DOM 变更并让浏览器渲染页面后，而 useLayoutEffect 和 class 组件中 componentDidMount, componentDidUpdate一致——在 React 完成 DOM 更新后马上同步调用，会阻塞页面渲染。
 如果 useEffect 没有传入第二个参数，那么第一个参数传入的 effect 函数在每次 render 函数执行是都是独立的。每个 effect 函数中捕获的 props 或 state 都来自于那一次的 render 函数。
 
-作者：云音乐前端技术团队
-链接：https://juejin.im/post/5ec7372cf265da76de5cd0c9
-来源：掘金
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
  3. 每一帧可以拥有独立的 Effects
 对于 useEffect 来说，执行的时机是完成所有的 DOM 变更并让浏览器渲染页面后，而 useLayoutEffect 和 class 组件中 componentDidMount, componentDidUpdate一致——在 React 完成 DOM 更新后马上同步调用，会阻塞页面渲染。
 
