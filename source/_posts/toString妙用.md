@@ -3,6 +3,8 @@ title: toString妙用
 date: 2020-06-03 17:15:28
 tags:
 ---
+### 函数Curry例子：
+
 ```bash
 //实现一个add功能
 function add(a) {
