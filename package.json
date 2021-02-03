@@ -5,14 +5,15 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
+    "deploy": "yarn clean && hexo deploy",
+    "server": "hexo server",
+    "version": "hexo -v"
   },
   "hexo": {
-    "version": "4.2.0"
+    "version": "5.3.0"
   },
   "dependencies": {
-    "hexo": "^4.0.0",
+    "hexo": "^5.3.0",
     "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
