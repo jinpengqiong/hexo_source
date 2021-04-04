@@ -100,7 +100,7 @@ Blog King$ git tag -d v1111
 ```
 - 远端删除
 ```bash
-git push origin :refs/tags/v0.1.2
+git push origin :refs/tags/BDv4.1.0
 ```
 
 
