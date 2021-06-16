@@ -3,8 +3,9 @@ title: git alias
 date: 2021-06-16 10:50:51
 tags:
 ---
- 设置git 别名：
+### 设置git 别名
 
+打开git全局配置
 ```bash
 vim ~/.gitconfig
 ```
