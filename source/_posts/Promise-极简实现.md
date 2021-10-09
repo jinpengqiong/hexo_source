@@ -29,7 +29,7 @@ class Promise {
 }
 ```
 
-```
+```bash
 //完整的实现
 class Promise {
     callbacks = [];
