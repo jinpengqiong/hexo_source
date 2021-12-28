@@ -4,7 +4,7 @@ date: 2021-09-01 09:12:46
 tags:
 ---
 
-### apollo server
+### 何为GraphQL
 
 ### apollo client
 
