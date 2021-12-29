@@ -1,11 +1,11 @@
 ---
-title: GraphQL的全栈解决方案
+title: GraphQL在全栈开发中的应用
 date: 2021-09-01 09:12:46
 tags:
 ---
 
 ### 何为GraphQL
 
-### apollo client
+### GraphQL的应用
 
-### to do list
+### GraphQL的优缺点
