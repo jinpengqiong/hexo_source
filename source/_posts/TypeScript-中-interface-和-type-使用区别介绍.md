@@ -1,7 +1,7 @@
 ---
 title: TypeScript 中 interface 和 type 使用区别介绍
 date: 2021-09-09 15:01:38
-tags:
+tags: interface
 ---
 
 interface 和 type 很像，很多场景，两者都能使用。但也有细微的差别：
